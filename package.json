@@ -1,0 +1,26 @@
+{
+  "name": "node-multipart-light",
+  "version": "0.1.0",
+  "description": "A lightweight library for easily generating/parsing files and text into a multipart/form-data request, to be able to upload/download files and data with NodeJS over HTTP/HTTPS.",
+  "main": "./lib/multipartlight",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nexination/node-multipart-light.git"
+  },
+  "keywords": [
+    "multipart/form-data",
+    "form-data",
+    "multipart",
+    "http",
+    "https"
+  ],
+  "author": "Kristian B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nexination/node-multipart-light/issues"
+  },
+  "homepage": "https://github.com/Nexination/node-multipart-light#readme"
+}
