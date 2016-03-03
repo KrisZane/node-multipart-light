@@ -2,7 +2,7 @@
 A lightweight library for easily generating/parsing files and text into a "multipart/form-data" request, to be able to upload/download files and data with NodeJS over HTTP/HTTPS.
 
 To generate a multipart/form-data envelope that can be used for uploading, do the following:
-```
+```javascript
 "use strict";
 // Initiate the generator
 let https = require('https');
@@ -38,7 +38,7 @@ request.end();
 ```
 
 The returned data object from the generator will look like this:
-```
+```javascript
 {
   "headers": {
     'Content-Type': 'multipart/form-data; boundary=2dTE2A',
